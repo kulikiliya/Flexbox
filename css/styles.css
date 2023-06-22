@@ -74,6 +74,8 @@ p {
 .header > .flex-box {
   display: flex;
   align-items: center;
+
+  border-bottom: 1px solid var(--br-line-color);
 }
 
 .nav-box {
