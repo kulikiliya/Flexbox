@@ -102,9 +102,6 @@ p {
   display: flex;
 }
 
-.nav-box .item {
-}
-
 .nav-box .item:not(:last-child) {
   margin-right: 40px;
 }
@@ -113,7 +110,7 @@ p {
   color: var(--h-color);
 }
 .nav-logo {
-  margin-right: 72px;
+  margin-right: 76px;
 
   color: var(--primary-brand);
 
@@ -303,7 +300,7 @@ p {
 
 .team-section .item {
   width: calc((100% - 72px) / 4);
-  border-radius: 4px;
+  border-radius: 0 0 4px 4px;
 
   background-color: var(--white-background);
 }
@@ -318,7 +315,7 @@ p {
 }
 
 .footer-logo {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 
   color: var(--primary-brand);
